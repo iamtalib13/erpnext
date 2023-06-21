@@ -1,0 +1,69 @@
+{
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h1\\\"><b>Welcome To Mohit Team</b></span>\",\"col\":12}},{\"type\":\"paragraph\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Pending Ticket Details</b></span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"CBS User Creation\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Agent Issues\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Day End Issues\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Entry Corrections\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Reconciliation\",\"col\":3}}]",
+ "creation": "2022-12-22 16:59:31.658613",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "share-people",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Mohit & Team",
+ "links": [],
+ "modified": "2023-06-20 15:17:19.642503",
+ "modified_by": "Administrator",
+ "module": "Telephony",
+ "name": "Mohit & Team",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 29.0,
+ "shortcuts": [
+  {
+   "color": "Red",
+   "doc_view": "List",
+   "label": "Agent Issues",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"dept_name\":[\"=\",\"Operations\"],\"status\":[\"not in\",[\"Closed\"]],\"ticket_type_operations\":[\"=\",\"Agent Issue\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Yellow",
+   "doc_view": "List",
+   "label": "Entry Corrections",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"dept_name\":[\"=\",\"Operations\"],\"status\":[\"not in\",[\"Closed\"]],\"ticket_type_operations\":[\"=\",\"Entry Correction\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Reconciliation",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"dept_name\":[\"=\",\"Operations\"],\"status\":[\"not in\",[\"Closed\"]],\"ticket_type_operations\":[\"=\",\"Reconciliation\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "CBS User Creation",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"dept_name\":[\"=\",\"Operations\"],\"status\":[\"not in\",[\"Closed\"]],\"ticket_type_operations\":[\"=\",\"CBS User ID Creation\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Cyan",
+   "doc_view": "List",
+   "label": "Day End Issues",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"dept_name\":[\"=\",\"Operations\"],\"status\":[\"not in\",[\"Closed\"]],\"ticket_type_operations\":[\"=\",\"Day End Issue\"]}",
+   "type": "DocType"
+  }
+ ],
+ "title": "Mohit & Team"
+}

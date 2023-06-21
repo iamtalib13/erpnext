@@ -1,0 +1,83 @@
+{
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h1\\\"><b>Welcome To MIS Department</b></span>\",\"col\":12}},{\"type\":\"paragraph\",\"data\":{\"text\":\"<b>Ticket Details of MIS Department</b>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Open Tickets\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Read Tickets\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"In-Progress Tickets\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Closed Tickets\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"On-Hold Tickets\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Ticket Cancelled by Branch\",\"col\":4}},{\"type\":\"quick_list\",\"data\":{\"quick_list_name\":\"MIS Recent Tickets\",\"col\":12}}]",
+ "creation": "2022-12-24 10:55:47.276940",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "milestone",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "MIS Tickets",
+ "links": [],
+ "modified": "2023-06-20 15:17:19.898772",
+ "modified_by": "Administrator",
+ "module": "Quality Management",
+ "name": "MIS Tickets",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [
+  {
+   "document_type": "Sahayog Ticket",
+   "label": "MIS Recent Tickets",
+   "quick_list_filter": "{\"dept_name\":[\"=\",\"MIS\"]}"
+  }
+ ],
+ "roles": [],
+ "sequence_id": 36.0,
+ "shortcuts": [
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Closed Tickets",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"dept_name\":[\"=\",\"MIS\"],\"status\":[\"=\",\"Closed\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Cyan",
+   "doc_view": "List",
+   "label": "On-Hold Tickets",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"dept_name\":[\"=\",\"MIS\"],\"status\":[\"=\",\"On-Hold\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Red",
+   "doc_view": "List",
+   "label": "Open Tickets",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"dept_name\":[\"=\",\"MIS\"],\"status\":[\"=\",\"Open\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Red",
+   "doc_view": "List",
+   "label": "Ticket Cancelled by Branch",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"dept_name\":[\"=\",\"MIS\"],\"status\":[\"=\",\"Cancelled\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Yellow",
+   "doc_view": "List",
+   "label": "Read Tickets",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"dept_name\":[\"=\",\"MIS\"],\"status\":[\"=\",\"Read\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "In-Progress Tickets",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"dept_name\":[\"=\",\"MIS\"],\"status\":[\"=\",\"In-Progress\"]}",
+   "type": "DocType"
+  }
+ ],
+ "title": "MIS Tickets"
+}

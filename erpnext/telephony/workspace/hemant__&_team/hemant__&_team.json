@@ -1,0 +1,93 @@
+{
+ "charts": [],
+ "content": "[{\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h1\\\"><b>Welcome To Hemant Team</b></span>\",\"col\":12}},{\"type\":\"paragraph\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Pending Ticket Details</b></span>\",\"col\":12}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Mobile Banking\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Passbook Print\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Document Scan\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"UPI\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Net Banking\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"JLL Disbursment\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"BR.Net\",\"col\":3}},{\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"EOD\",\"col\":3}}]",
+ "creation": "2022-12-22 16:40:43.403495",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "share",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Hemant  & Team",
+ "links": [],
+ "modified": "2023-06-20 15:17:19.668420",
+ "modified_by": "Administrator",
+ "module": "Telephony",
+ "name": "Hemant  & Team",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 30.0,
+ "shortcuts": [
+  {
+   "color": "Blue",
+   "doc_view": "List",
+   "label": "Document Scan",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"dept_name\":[\"=\",\"Operations\"],\"status\":[\"not in\",[\"Closed\"]],\"ticket_type_operations\":[\"=\",\"Document Scan\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Pink",
+   "doc_view": "List",
+   "label": "Net Banking",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"dept_name\":[\"=\",\"Operations\"],\"status\":[\"not in\",[\"Closed\"]],\"ticket_type_operations\":[\"=\",\"Net Banking\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Orange",
+   "doc_view": "List",
+   "label": "EOD",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"dept_name\":[\"=\",\"Operations\"],\"status\":[\"not in\",[\"Closed\"]],\"ticket_type_operations\":[\"=\",\"EOD\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Yellow",
+   "doc_view": "List",
+   "label": "Passbook Print",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"dept_name\":[\"=\",\"Operations\"],\"status\":[\"not in\",[\"Closed\"]],\"ticket_type_operations\":[\"=\",\"Passbook Print\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "JLL Disbursment",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"dept_name\":[\"=\",\"Operations\"],\"status\":[\"not in\",[\"Closed\"]],\"ticket_type_operations\":[\"=\",\"JLL Disburstment\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Red",
+   "doc_view": "List",
+   "label": "Mobile Banking",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"dept_name\":[\"=\",\"Operations\"],\"ticket_type_operations\":[\"=\",\"Mobile Banking\"],\"status\":[\"not in\",[\"Closed\"]]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Cyan",
+   "doc_view": "List",
+   "label": "UPI",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"dept_name\":[\"=\",\"Operations\"],\"status\":[\"not in\",[\"Closed\"]],\"ticket_type_operations\":[\"=\",\"UPI\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Cyan",
+   "doc_view": "List",
+   "label": "BR.Net",
+   "link_to": "Sahayog Ticket",
+   "stats_filter": "{\"dept_name\":[\"=\",\"Operations\"],\"status\":[\"not in\",[\"Closed\"]],\"ticket_type_operations\":[\"=\",\"BR.Net\"]}",
+   "type": "DocType"
+  }
+ ],
+ "title": "Hemant  & Team"
+}

@@ -1,0 +1,32 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "condition": "doc.status==\"New\" or doc.status==\"Open\" and doc.full_name==\"Talib Sheikh\"",
+ "creation": "2023-01-02 11:09:57.026240",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Sahayog Ticket",
+ "enabled": 0,
+ "event": "New",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "<h3> Dear IT Department,<h3> \n\n<h4 style=\"color:red\"> A new ticket has been assigned to the department.<h4> \n<h5>Please see the details below:<h5> \n\n<table >\n  <tr>\n    <th style=\" text-align: right\">REGION</th>\n    <td>: {{ doc.region }}</td>\n  </tr>\n  <tr>\n    <th style=\" text-align: right\">BRANCH</th>\n    <td>: {{ doc.branch_name }}</td>\n  </tr>\n  <tr>\n    <th style=\" text-align: right\">TYPE</th>\n    <td>: {{ doc.ticket_type_it }}</td>\n  </tr>\n   <tr>\n    <th style=\" text-align: right\">ISSUE</th>\n    <td>: {{ doc.desc }}</td>\n  </tr>\n</table>\n<br>\nPlease take the necessary actions to resolve it as soon as possible.  \n<br>\nThank you for your attention to this matter. \n<br>\n<br>\n<i>Ticket Created By : {{ doc.full_name }}</i> ",
+ "modified": "2023-06-03 10:21:25.430651",
+ "modified_by": "Administrator",
+ "module": "CRM",
+ "name": "newww",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_document_field": "lead_owner",
+   "receiver_by_role": "email tester"
+  }
+ ],
+ "send_system_notification": 1,
+ "send_to_all_assignees": 0,
+ "sender": "Sahayog Support System",
+ "sender_email": "support@sahayogmultistate.com",
+ "set_property_after_alert": "",
+ "subject": "New Ticket : {{ doc.dept_name }} - {{ doc.ticket_type_it }}"
+}
